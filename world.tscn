@@ -1,0 +1,148 @@
+[gd_scene format=3 uid="uid://co5opkbs2iko6"]
+
+[node name="World" type="Node3D" unique_id=1767893690]
+
+[node name="Floor" type="CSGBox3D" parent="." unique_id=769772316]
+transform = Transform3D(8.781155, 0, 0, 0, 1, 0, 0, 0, 8.415357, -15.231173, 0, 11.650043)
+size = Vector3(6, 1, 4)
+
+[node name="Hallway" type="Node3D" parent="." unique_id=1632638381]
+
+[node name="Hallway Wall 1" type="CSGBox3D" parent="Hallway" unique_id=2070638370]
+transform = Transform3D(0.7869631, 0, 0, 0, 1, 0, 0, 0, 1, -8.551421, 1.9640398, -5.3289657)
+size = Vector3(50, 3, 1)
+
+[node name="Hallway Front Door" type="CSGBox3D" parent="Hallway/Hallway Wall 1" unique_id=378958087]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.1510067, -0.41069198, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Hallway Wall 2" type="CSGBox3D" parent="Hallway" unique_id=1040254177]
+transform = Transform3D(-3.6259344e-08, 0, -1, 0, 1, 0, 0.8295171, 0, -4.371139e-08, -27.90691, 2, 10.742244)
+size = Vector3(40, 3, 1)
+
+[node name="Hallway Wall 3" type="CSGBox3D" parent="Hallway" unique_id=467597771]
+transform = Transform3D(0.79702556, 0, 0, 0, 1, 0, 0, 0, 1, -8.448683, 1.9280796, 27.342068)
+size = Vector3(50, 3, 1)
+
+[node name="Home Office" type="Node3D" parent="." unique_id=1823101633]
+
+[node name="Home Office Wall 1" type="CSGBox3D" parent="Home Office" unique_id=1945538319]
+transform = Transform3D(-0.04186924, 0, -0.9991231, 0, 1, 0, 0.9991231, 0, -0.04186924, -4.2824984, 2.0075517, -2.0700545)
+size = Vector3(5.79, 3, 1)
+
+[node name="Home Office Wall 2" type="CSGBox3D" parent="Home Office" unique_id=1173555633]
+transform = Transform3D(1.1887904, 0, 0, 0, 1, 0, 0, 0, 1, -0.76739764, 1.993, 1.3021963)
+size = Vector3(7, 3, 1)
+
+[node name="Home Office Door Box" type="CSGBox3D" parent="Home Office/Home Office Wall 2" unique_id=359548945]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.31625128, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Living Room" type="Node3D" parent="." unique_id=1070081054]
+
+[node name="Living Room Wall 1" type="CSGBox3D" parent="Living Room" unique_id=1527933446]
+transform = Transform3D(0.015295188, 0, -1.0093951, 0, 1, 0, 2.599928, 0, 0.0059381984, 11.100132, 1.9698668, 10.905527)
+size = Vector3(12.95, 3, 1)
+
+[node name="Living Room Wall 2" type="CSGBox3D" parent="Living Room" unique_id=444686903]
+transform = Transform3D(-0.030133273, 0, 1.0259557, 0, 1, 0, -2.5609984, 0, -0.01207162, 3.829402, 1.9801269, 11.1394005)
+size = Vector3(12.95, 3, 1)
+
+[node name="Living Room Door Box" type="CSGBox3D" parent="Living Room/Living Room Wall 2" unique_id=388138347]
+transform = Transform3D(0.3904457, 0, 0, 0, 0.99999994, 0, 0, 0, 0.9746335, 2.8357635, -0.34516454, 0.08328915)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Toilet" type="Node3D" parent="." unique_id=540333200]
+
+[node name="Toilet Wall 1" type="CSGBox3D" parent="Toilet" unique_id=94470801]
+transform = Transform3D(0.008500324, 0, -0.99996376, 0, 1, 0, 0.99996376, 0, 0.008500324, -21.67804, 1.998914, -2.7088966)
+size = Vector3(4.39, 3, 1)
+
+[node name="Toilet Wall 2" type="CSGBox3D" parent="Toilet" unique_id=1038140168]
+transform = Transform3D(0.9996483, 0, 0.026519008, 0, 1, 0, -0.026519008, 0, 0.9996483, -17.571827, 2.0227785, -0.3019824)
+size = Vector3(8.89, 3, 1)
+
+[node name="Toilet Door" type="CSGBox3D" parent="Toilet/Toilet Wall 2" unique_id=1792779524]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4237399, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Toilet Wall 3" type="CSGBox3D" parent="Toilet" unique_id=1806951552]
+transform = Transform3D(-0.035556167, 0, 0.9993677, 0, 1, 0, -0.9993677, 0, -0.035556167, -13.710718, 1.997828, -2.6442719)
+size = Vector3(4.39, 3, 1)
+
+[node name="Bathroom" type="Node3D" parent="." unique_id=1299858007]
+
+[node name="Bathroom Wall 1" type="CSGBox3D" parent="Bathroom" unique_id=1686612963]
+transform = Transform3D(0.9996058, 0, 0.02807857, 0, 1, 0, -0.02807857, 0, 0.9996058, -24.745565, 2, 0)
+size = Vector3(5.5, 3, 1)
+
+[node name="Bathroom Door" type="CSGBox3D" parent="Bathroom/Bathroom Wall 1" unique_id=1013304315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3643241, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Basement Stairway" type="Node3D" parent="." unique_id=1551648331]
+
+[node name="Basement Stairway Wall 1" type="CSGBox3D" parent="Basement Stairway" unique_id=1585431074]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.47835, 2, 5.0983458)
+size = Vector3(6, 3, 1)
+
+[node name="Basement Stairway Wall 2" type="CSGBox3D" parent="Basement Stairway" unique_id=36386986]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -24.45869, 2, 10)
+size = Vector3(6, 3, 1)
+
+[node name="Basement Stairway Wall 3" type="CSGBox3D" parent="Basement Stairway" unique_id=1022064981]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -21.960785, 1.9946382, 7.512067)
+size = Vector3(4, 3, 1)
+
+[node name="Basement Stairway Door" type="CSGBox3D" parent="Basement Stairway/Basement Stairway Wall 3" unique_id=1080987793]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.32626295, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="2nd Floor Stairway" type="Node3D" parent="." unique_id=963028657]
+
+[node name="Kitchen" type="Node3D" parent="." unique_id=1631450051]
+
+[node name="Kitchen Wall 1" type="CSGBox3D" parent="Kitchen" unique_id=808036379]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.568138, 2, 18.147736)
+size = Vector3(10.5, 3, 1)
+
+[node name="Kitchen Door" type="CSGBox3D" parent="Kitchen/Kitchen Wall 1" unique_id=915416403]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.46458292, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Kitchen Wall 2" type="CSGBox3D" parent="Kitchen" unique_id=1472192562]
+transform = Transform3D(-5.5076345e-08, 0, -1, 0, 1, 0, 1.26, 0, -4.371139e-08, -17, 2, 22.601448)
+size = Vector3(7.85, 3, 1)
+
+[node name="Dining Room" type="Node3D" parent="." unique_id=1215805153]
+
+[node name="Dining Room Wall 1" type="CSGBox3D" parent="Dining Room" unique_id=893375250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.734336, 2, 18.144121)
+size = Vector3(7.6, 3, 1)
+
+[node name="Dining Room Door" type="CSGBox3D" parent="Dining Room/Dining Room Wall 1" unique_id=826740787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.33292127, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
+
+[node name="Dining Room Wall 2" type="CSGBox3D" parent="Dining Room" unique_id=215263609]
+transform = Transform3D(1.7954886e-07, 0, 1.2599999, 0, 0.99999994, 0, -1.2599999, 0, 1.5386408e-07, -8.368345, 2, 22.577572)
+size = Vector3(7.85, 3, 1)
+
+[node name="Storage 1" type="Node3D" parent="." unique_id=1093919413]
+
+[node name="Storage Wall 1" type="CSGBox3D" parent="Storage 1" unique_id=1645071491]
+transform = Transform3D(1.6720002, 0, 0, 0, 1, 0, 0, 0, 1, -2.0647798, 2, 18.114067)
+size = Vector3(6.89, 3, 1)
+
+[node name="Storage Door" type="CSGBox3D" parent="Storage 1/Storage Wall 1" unique_id=613892489]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.5172825, 0)
+operation = 2
+size = Vector3(1, 2, 1.5)
